@@ -19,10 +19,10 @@
     </tr>
   </thead>
   <tbody>
-    <tr v-for="(Todo,key,index) in todos" :key="index" >
+    <tr v-for="(todo,key,index) in todos" :key="index" >
       <td>{{key}}</td>
-      <td>{{Todo.name}}</td>
-      <td>{{Todo.status}}</td>
+      <td>{{todo.name}}</td>
+      <td>{{todo.status}}</td>
       <td>
         <div class="text-center">
           <span class="fa fa-edit"></span>
