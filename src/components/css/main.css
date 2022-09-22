@@ -1,0 +1,14 @@
+h1{
+  color: #0077b5 !important;
+  font: Sans-serif !important;
+  font-weight: 600 !important;}
+  button{
+    background-color: #0077b5 !important;
+    margin-left:20px !important;
+  }
+  div.container{
+    width: 800px !important;
+  }
+  input{
+    width:100% !important;
+  }
